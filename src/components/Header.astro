@@ -1,7 +1,7 @@
 ---
 import HeaderLink from './HeaderLink.astro';
 import { Icon } from 'astro-icon/components'
-import { GITHUB_URL, SITE_TITLE, TWITTER_URL } from '../consts';
+import { GITHUB_URL, LINKEDIN_URL, SITE_TITLE, TWITTER_URL } from '../consts';
 ---
 
 <header>
@@ -9,7 +9,6 @@ import { GITHUB_URL, SITE_TITLE, TWITTER_URL } from '../consts';
 		<h2><a href="/">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
 			<HeaderLink href="/about">About</HeaderLink>
 		</div>
 		<div class="social-links">
@@ -21,8 +20,8 @@ import { GITHUB_URL, SITE_TITLE, TWITTER_URL } from '../consts';
 				<span class="sr-only">Go to Dan's GitHub repo</span>
 				<Icon name="ant-design:github-outlined" height={32} width={32}>
 			</a>
-			<a href={GITHUB_URL} target="_blank">
-				<span class="sr-only">Go to Dan's GitHub repo</span>
+			<a href={LINKEDIN_URL} target="_blank">
+				<span class="sr-only">Go to Dan's LinkedIn</span>
 				<Icon name="ant-design:linkedin-outlined" height={32} width={32} />
 			</a>
 		</div>
