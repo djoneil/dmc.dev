@@ -7,7 +7,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://djoneil.githubl.io',
+  site: 'https://djoneil.github.io',
   base: 'dmc.dev',
   integrations: [mdx(), sitemap(), tailwind(), icon()]
 });
