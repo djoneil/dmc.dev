@@ -10,5 +10,6 @@ import icon from "astro-icon";
 export default defineConfig({
   site: 'https://djoneil.github.io',
   base: '/dmc.dev',
+  trailingSlash: 'never',
   integrations: [mdx(), sitemap(), tailwind(), icon()]
 });
